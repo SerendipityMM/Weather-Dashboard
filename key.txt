@@ -1,0 +1,11 @@
+Open Weather
+API key : e3b71d66674ce9bb0a1f38f2206c8d7a
+
+
+API call by City name 
+https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=e3b71d66674ce9bb0a1f38f2206c8d7a
+
+
+
+API call 5days by City name 
+https://samples.openweathermap.org/data/2.5/forecast?q=M%C3%BCnchen,DE&appid=e3b71d66674ce9bb0a1f38f2206c8d7a
