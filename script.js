@@ -1,16 +1,18 @@
+
+//Variables declared
 let city=""; 
 let url="";
 let APIkey="";
 let queryurl ="";
 let currenturl = "";
 let citiesDiv = document.getElementById("searched_cities_container");
-//start with empty array
+//Start with empty array
 let cities = []; 
 init(); 
 listClicker(); 
 searchClicker(); 
 
-//run function to pull saved cities from local storage and fill array with it
+//Function to pull saved cities from local storage and fill array with it
 function init(){
     let saved_cities = JSON.parse(localStorage.getItem("cities"));
 
@@ -21,13 +23,13 @@ function init(){
     renderButtons(); 
 }
 
-//sets localstorage item to cities array 
+//Sets localstorage item to cities array 
 function storeCities(){
     localStorage.setItem("cities", JSON.stringify(cities)); 
 }
 
 
-//render buttons for each element in cities array as a search history for user
+//Show buttons for each element in cities array as a most recent search by user
 function renderButtons(){
     citiesDiv.innerHTML = ""; 
     if(cities == null){
@@ -45,12 +47,12 @@ function renderButtons(){
         listClicker();
       }
     }
-//on click function for search history buttons
+//On click function for history search
 function listClicker(){
 $(".listbtn").on("click", function(event){
-    console.log("anybody home?")
+    console.log("")
     event.preventDefault();
-    console.log("hello?");
+    console.log("");
     city = $(this).text().trim();
     APIcalls(); 
 })
@@ -58,19 +60,19 @@ $(".listbtn").on("click", function(event){
 
 
 
-//on click function for main search bar
+//On click function for main search bar
 function searchClicker() {
 $("#searchbtn").on("click", function(event){
     event.preventDefault();
     city = $(this).prev().val().trim()
     
-    //push the city user entered into cities array 
+    //Push the city user entered into cities array 
     cities.push(city);
-    //make sure cities array.length is never more than 8 
+    
     if(cities.length > 8){
         cities.shift()
     }
-    //return from function early if form is blank
+    //Return from function early if form is blank
     if (city == ""){
         return; 
     }

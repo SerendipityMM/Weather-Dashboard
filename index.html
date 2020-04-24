@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Setting the viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Weather Dashboard</title>
 
+    <!--Bootstrap, External CSS, Font Awesome, Google Fonts-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/4439e3b362.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header id="page_header" class="container-fluid  pt-3 pb-3 text-center"><h1 class="text-white">Weather Dashboard</h1></header>
 
@@ -23,14 +26,17 @@
                                 <button id="searchbtn" class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
                         </form>
                     </div>
-                    <h5 class="justify-content-center pt-2 pl-3">Your previously searched cities: </h5>
+                    <h5 class="justify-content-center pt-2 pl-3">Most recent: </h5>
                     <div class="container my-3 col-12" id="searched_cities_container">
 
                     </div>
+                    
+                    <h6>Made with</h6>
+                    <img id = "apiimage" src="Logo.jpg" > 
             </div>
 
-
-            
+          
+        <!--Card "Five Day Weather Forecast-->
         <div class="today_weather col-9 pt-3">
                 <div class="bg-light p-3">
                         <h2 class="justify-content-center text-dark" id="name_of_city"></h2>
@@ -84,20 +90,11 @@
         </div>
 
 
-
-    
-                    
-
-
-
             </div>
+         
         </div>
 
-
-
-
-
-
+    <!--JavaScript library for DOM operations-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
