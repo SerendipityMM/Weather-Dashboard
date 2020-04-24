@@ -1,24 +1,32 @@
-# Weather-Dashboard
-This project presents a timed JavaScript code quiz with multiple-choice questions. 
+# Weather-Dashboard Deployment 
+The application will run in the browser and feature dynamically updated HTML and CSS powered by a JavaScript code. It also features a clean user interface and responsiveness, ensuring that it adapts to multiple screen sizes. OpenWeather API is the third-party API which has been used to retrieve weather data for cities.
+The data stored in the browser will persist even after the browser window has been closed, thankfully to localStorage.
 
-## Deployment 
-The application will run in the browser and feature dynamically updated HTML and CSS powered by a JavaScript code. It also features a clean user interface and responsiveness, ensuring that it adapts to multiple screen sizes.
+# Purpose
 
-## Running the application
-The Application starts with alert message giving the user instructions for taking the Quiz.
-![Intro](https://user-images.githubusercontent.com/55516592/72230983-13092180-3576-11ea-9aec-24102f72f93d.png)
+User Story 
+AS A traveler
+I WANT to see the weather outlook for multiple cities
+SO THAT I can plan a trip accordingly
 
-Time is on, once the user press the Start Button.
-![Start_Btn](https://user-images.githubusercontent.com/55516592/72230990-16041200-3576-11ea-80a2-6ea8ba9f98c4.png)
+GIVEN a weather dashboard with form inputs
+WHEN I search for a city
+THEN I am presented with current and future conditions for that city and that city is added to the search history
+WHEN I view current weather conditions for that city
+THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
+WHEN I view the UV index
+THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
+WHEN I view future weather conditions for that city
+THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity
+WHEN I click on a city in the search history
+THEN I am again presented with current and future conditions for that city
 
-If there`s no option checked, user will be promted to make a choice before continuing.
-![Error_no input](https://user-images.githubusercontent.com/55516592/72230995-18666c00-3576-11ea-9f13-838bd732df71.png)
 
-Alert messege shows the user`s score.
-![ShowScore](https://user-images.githubusercontent.com/55516592/72230996-1b615c80-3576-11ea-82cb-bb48f810bd16.png)
+# App Display 
+![Screen Shot 2020-04-24 at 5 00 12 PM](https://user-images.githubusercontent.com/55516592/80264111-3735cd80-8650-11ea-9bdd-29e47769df46.png)
 
-Final promt to submit user`s name.
-![Submit Name](https://user-images.githubusercontent.com/55516592/72230999-20bea700-3576-11ea-8656-ac2b8dea3f18.png)
+# Live App
 
-## Build with
+
+# Build with
 Visual Studio Code
