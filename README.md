@@ -3,26 +3,13 @@ The application will run in the browser and feature dynamically updated HTML and
 The data stored in the browser will persist even after the browser window has been closed, thankfully to localStorage.
 
 ## Purpose
-
-User Story 
-1.AS A traveler
-2.I WANT to see the weather outlook for multiple cities
-3.SO THAT I can plan a trip accordingly
-
-4.GIVEN a weather dashboard with form inputs
-5.WHEN I search for a city
-6.THEN I am presented with current and future conditions for that city and that city is added to the search history
-7.WHEN I view current weather conditions for that city
-8.THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-9.WHEN I view the UV index
-10.THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-11.WHEN I view future weather conditions for that city
-12.THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity
-13.WHEN I click on a city in the search history
-14.THEN I am again presented with current and future conditions for that city
+Search form for different cities
+Search history form 
+Display city and weather specification for the day 
+Display a 5-Day Weather Forecast
 
 ![Screen Shot 2020-04-24 at 5 00 12 PM](https://user-images.githubusercontent.com/55516592/80264111-3735cd80-8650-11ea-9bdd-29e47769df46.png)
 
 # Live App
-## :small_blue_diamond: https://serendipitymm.github.io/Weather-Dashboard/
+## :small_blue_diamond:[Weather-Dashboard] https://serendipitymm.github.io/Weather-Dashboard/
 Visual Studio Code
