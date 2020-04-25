@@ -8,11 +8,11 @@ The data stored in the browser will persist even after the browser window has be
 Search form for different cities <>
 Search history form for previous cities <>
 Display city and weather specification for the day <>
-Display a 5-Day Weather Forecast <>
+Display a 5-Day Weather Forecast 
 
 ![Screen Shot 2020-04-24 at 5 00 12 PM](https://user-images.githubusercontent.com/55516592/80264111-3735cd80-8650-11ea-9bdd-29e47769df46.png)
 
 # Live App
- We can visit Weather Dashboard at https://serendipitymm.github.io/Weather-Dashboard/ 
+ You can visit Weather Dashboard at https://serendipitymm.github.io/Weather-Dashboard/ 
 Build with Visual Studio Code
 
